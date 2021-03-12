@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ShopCard from './ShopCard'
-import {products} from './product'
 
 function CardsView({products}) {
     return (
@@ -18,7 +17,12 @@ function CardsView({products}) {
     }
 
 CardsView.propTypes = {
-
+    products:PropTypes.shape({
+        name: PropTypes.string,
+        price:PropTypes.string,
+        color:PropTypes.string,
+        img:PropTypes.string
+    })
 }
 
 export default CardsView

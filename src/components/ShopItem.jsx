@@ -13,7 +13,10 @@ function ShopItem({name,color,img,price}) {
 }
 
 ShopItem.propTypes = {
-
+    name: PropTypes.string,
+    price:PropTypes.string,
+    color:PropTypes.string,
+    img:PropTypes.string
 }
 
 export default ShopItem

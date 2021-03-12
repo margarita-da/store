@@ -13,7 +13,8 @@ function IconSwitch({icon, onSwitch}) {
 }
 
 IconSwitch.propTypes = {
-
+    icon:PropTypes.string,
+    onClick: PropTypes.func
 }
 
 export default IconSwitch

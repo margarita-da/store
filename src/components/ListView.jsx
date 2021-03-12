@@ -17,7 +17,12 @@ function ListView({products}) {
 }
 
 ListView.propTypes = {
-
+    products:PropTypes.shape({
+        name: PropTypes.string,
+        price:PropTypes.string,
+        color:PropTypes.string,
+        img:PropTypes.string
+    })
 }
 
 export default ListView

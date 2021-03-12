@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import PropTypes from 'prop-types'
 import IconSwitch from './IconSwitch'
 import CardsView from './CardsView'
 import {products} from "./product"
@@ -23,9 +22,6 @@ function Store() {
     )
 }
 
-Store.propTypes = {
-
-}
 
 export default Store
 
